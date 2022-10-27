@@ -1,0 +1,116 @@
+.post{
+    width: 50%;
+    height: 500px;
+    margin-left:100px;
+    margin-top: 30px;
+}
+
+.info{
+    width: 50%;
+    height:500px;
+     display: flex; 
+    justify-content: center;
+}
+
+
+ .info .options{
+    height: 20px;
+    cursor: pointer;  
+    margin-left: 470px;
+    margin-top: 15px;
+    
+} 
+
+.info .profile-pic .img {
+    cursor: pointer;
+    position:absolute;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.info .username{
+    cursor: pointer;
+    margin-left:75px;
+    position: absolute;
+}
+
+.info .username:hover{
+    color: blue;
+}
+
+
+.post-image{
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.likes{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description{
+    font-size: 20px;
+    margin-bottom:300px;
+
+}
+
+.description span{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.description span:hover{
+    color: blue;
+}
+
+.comment-wrapper{
+    position: absolute;
+    margin-top: -300px;
+    
+}
+
+.comment-wrapper .view{
+    font-size: 20px;
+}
+
+.comment-wrapper .icon{
+    cursor: pointer;
+}
+
+ .comment-box {
+    width: 200px;
+    outline:black;
+    font-size: 14px;
+}
+
+.comment-btn,
+.action-btn{
+    width: 60px;
+    outline: black;
+    font-size: 18px;
+    color:blue;
+}
+
+.reaction-wrapper{
+    
+    display: flex; 
+    margin-bottom: 20px;
+}
+
+.reaction-wrapper .icon{
+    height: 25px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.reaction-wrapper .icon.save{
+     margin-left: 350px; 
+}
+
+.reaction-wrapper:hover{
+    color: brown;
+}
